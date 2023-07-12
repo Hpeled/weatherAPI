@@ -22,13 +22,13 @@ function App() {
   };
   return (
     <div className="wrapper">
-      <h1 className="headline">AccuWeather API</h1>
+      <h1 className="headline">Weather App</h1>
       <form
         className="form-group custom-form"
         autoComplete="off"
         onSubmit={fetchCity}
       >
-        <label>Search for a city to get weather data</label>
+        <label>Search for a city to get weather information</label>
         <div className="search-box">
           <input
             className="form-control"
