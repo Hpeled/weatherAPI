@@ -43,21 +43,42 @@ body {
 .custom-form label {
   font-size: 22px;
   margin-bottom: 4px;
-  color: rgb(235, 231, 231);
+  color: rgb(255, 255, 255);
   width: 100%;
   text-align: center;
 }
 
 .search-box {
+  width: 400px;
+  border: 1px solid #fff;
+  border-radius: 20px;
   display: flex;
+
+  justify-content: center;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .search-box input {
-  border-radius: 0;
+  width: 70%;
+  border: 1px solid #fff;
+  border-radius: 20px;
+
+  padding: 10px;
+  margin: 0 auto;
 }
 
 .search-box button {
-  border-radius: 0;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #000000;
+  color: white;
+  font-size: 17px;
+  border: 1px solid rgb(255, 255, 255);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
